@@ -1,0 +1,9 @@
+osmnx
+geopandas
+pandas
+numpy
+shapely
+matplotlib
+contextily
+scikit-learn
+folium
