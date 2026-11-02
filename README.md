@@ -30,24 +30,11 @@ Sur le plan environnemental, elle favorise les centres denses et marchables, don
 
 Et surtout, la méthode est reproductible. On garde le moteur, on change la cible, et elle sert aussi bien à placer un commerce qu'à choisir où implanter des bornes de recharge.
 
-## Lancer le projet
-
-```bash
-python -m venv venv
-source venv/bin/activate      # sous Windows, venv\Scripts\activate
-pip install -r requirements.txt
-jupyter notebook avignon_emplacement_cafe.ipynb
-```
-
-Au premier lancement, le notebook télécharge les POI depuis OpenStreetMap et les met en cache dans un dossier `data`. Les fois suivantes, il repart du cache.
 
 ## Les données
 
 Points d'intérêt et réseau issus d'OpenStreetMap, via OSMnx. Données ouvertes, sous licence ODbL. Le dossier `data` n'est pas versionné, il se remplit tout seul au premier lancement.
 
-## Sources et remerciements
-
-Méthode découverte dans le cours Urban Analytics with Python de Milan Janosov, que j'ai ensuite appliquée à mon propre terrain, Avignon. Merci à lui pour ses ressources sur l'analyse spatiale urbaine.
 
 ## Moi
 
